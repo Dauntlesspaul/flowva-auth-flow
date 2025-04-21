@@ -76,6 +76,15 @@ body {
   height: 28px;
 }
 
+button {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+button:focus {
+  background-color: transparent;
+}
+
 .welcome {
   font-size: 22px;
   font-weight: 600;
