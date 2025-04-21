@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# Flova Authentication Flow (Sign In/Sign Up)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the authentication flow module for **Flova**, featuring **Sign In**, **Sign Up**, and **Reset Password** functionalities. It is designed to provide an easy-to-integrate authentication process for web applications, making it simple to manage user registration, login, and password recovery.
 
-Currently, two official plugins are available:
+### Simulations:
+This project includes **simulated** functionality for the sign-up and login process, providing a realistic experience without the need for a backend. These simulations mimic account creation, sign-in, and password reset, providing feedback during the process. It can be useful for testing the front-end flow before integrating with an actual backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Sign Up**: Allows new users to create an account with an email, password, and password confirmation. Includes basic password strength validation.
+- **Sign In**: Lets users log in using their registered email and password.
+- **Reset Password**: Provides a way for users to reset their password if they forget it, through a simple password reset mechanism.
+- **Google Authentication**: Option to sign in with Google for a more convenient login process.
+- **Password Strength Meter**: The system provides feedback on the strength of the user’s password during sign-up.
+- **Responsive Design**: The app is designed to be responsive, ensuring a seamless user experience on both mobile and desktop.
+- **Simulated Account Creation**: For the sign-up process, users will receive a simulated success message once the account is created (without actually storing data anywhere).
+- **Simulated Sign-In**: For the login process, users will be redirected with a simulated success message once login is successful.
+- **Simulated Password Reset**: The password reset functionality shows a simulation of sending a reset link to the user's email.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Demo
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Sign In**: Users can sign in with their email and password.
+- **Sign Up**: New users can create an account with their email, password, and confirmation of the password.
+- **Reset Password**: Users can request a password reset if they forget their password.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+To get started with this project, clone the repository to your local machine:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+git clone https://github.com/Dauntlesspaul/flova-auth-flow.git
