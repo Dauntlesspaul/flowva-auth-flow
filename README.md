@@ -1,6 +1,6 @@
-# Flova Authentication Flow (Sign In/Sign Up)
+# Flowva Authentication Flow (Sign In/Sign Up)
 
-This is the authentication flow module for **Flova**, featuring **Sign In**, **Sign Up**, and **Reset Password** functionalities. It is designed to provide an easy-to-integrate authentication process for web applications, making it simple to manage user registration, login, and password recovery.
+This is the authentication flow module for **Flowva**, featuring **Sign In**, **Sign Up**, and **Reset Password** functionalities. It is designed to provide an easy-to-integrate authentication process for web applications, making it simple to manage user registration, login, and password recovery.
 
 ### Simulations:
 
@@ -8,7 +8,7 @@ This project includes **simulated** functionality for the sign-up and login proc
 
 ### Demo
 
-[demo](https://flova-auth-flow.vercel.app/)
+[demo](https://flowva-auth-flow.vercel.app/)
 
 ## Features
 
@@ -32,5 +32,5 @@ This project includes **simulated** functionality for the sign-up and login proc
 To get started with this project, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Dauntlesspaul/flova-auth-flow.git
+git clone https://github.com/Dauntlesspaul/flowva-auth-flow.git
 ```
