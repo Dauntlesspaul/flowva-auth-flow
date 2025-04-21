@@ -6,6 +6,10 @@ This is the authentication flow module for **Flova**, featuring **Sign In**, **S
 
 This project includes **simulated** functionality for the sign-up and login process, providing a realistic experience without the need for a backend. These simulations mimic account creation, sign-in, and password reset, providing feedback during the process. It can be useful for testing the front-end flow before integrating with an actual backend.
 
+### Demo
+
+[demo](https://flova-auth-flow.vercel.app/)
+
 ## Features
 
 - **Sign Up**: Allows new users to create an account with an email, password, and password confirmation. Includes basic password strength validation.
@@ -17,12 +21,6 @@ This project includes **simulated** functionality for the sign-up and login proc
 - **Simulated Account Creation**: For the sign-up process, users will receive a simulated success message once the account is created (without actually storing data anywhere).
 - **Simulated Sign-In**: For the login process, users will be redirected with a simulated success message once login is successful.
 - **Simulated Password Reset**: The password reset functionality shows a simulation of sending a reset link to the user's email.
-
-## Demo
-
-- **Sign In**: Users can sign in with their email and password.
-- **Sign Up**: New users can create an account with their email, password, and confirmation of the password.
-- **Reset Password**: Users can request a password reset if they forget their password.
 
 ## Technologies Used
 
