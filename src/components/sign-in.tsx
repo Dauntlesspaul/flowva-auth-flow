@@ -100,7 +100,7 @@ export default function Signin({
   };
 
   return (
-    <form id="signin-form" className="animate-form" onSubmit={handleSubmit}>
+    <form className="animate-form" onSubmit={handleSubmit}>
       <div className="logo">
         <Flova />
         Flowva
@@ -126,7 +126,6 @@ export default function Signin({
         <label htmlFor="email">Email</label>
         <input
           type="email"
-          id="email"
           name="email"
           value={formData.email}
           onChange={handleChange}
@@ -140,7 +139,6 @@ export default function Signin({
         <label htmlFor="password">Password</label>
         <input
           type={show ? "text" : "password"}
-          id="password"
           name="password"
           value={formData.password}
           onChange={handleChange}
