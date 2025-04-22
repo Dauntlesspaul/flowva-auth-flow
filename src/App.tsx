@@ -13,9 +13,9 @@
  */
 
 import { useState } from "react";
-import Signin from "./component/sign-in";
-import Signup from "./component/sign-up";
-import ResetPassword from "./component/forgot-password";
+import Signin from "./components/sign-in";
+import Signup from "./components/sign-up";
+import ResetPassword from "./components/forgot-password";
 
 function App() {
   const [page, setPage] = useState<keyof typeof pages>("login");
